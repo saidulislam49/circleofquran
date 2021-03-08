@@ -1,0 +1,162 @@
+@font-face{
+    font-family: 'yasinvaierfont';
+    src : url(../font/SolaimanLipi_29-05-06.ttf)  format('truetype')
+}
+ 
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background: url(../images/bg1.png);
+}
+
+.header_top{
+   
+    padding: 10px 0;
+}
+.header_top .social_icon ul{
+    display: flex; 
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    margin-top: 8px;
+}
+.header_top .social_icon ul li{
+    margin: 0 15px;
+}
+.header_top .social_icon ul li a{
+    text-decoration: none;
+    color: #600;
+    transition: all .3s;
+}
+.header_top .social_icon ul li a:hover{
+    color: red;
+}
+.header_top .input-group { 
+	width: 350px; 
+	margin-left: auto;
+}
+input.form-control::placeholder{
+    color: #a29999;
+}
+.header_top .input-group .form-control{
+    border: 1px solid #600;
+}
+.header_top .input-group .form-control:focus{
+    box-shadow: unset;
+}
+.header_top .input-group .input-group-text{
+    background-color: #fff;
+    transition: all .2s;
+    border: 1px solid #600;
+}
+.header_top .input-group .input-group-text:hover{
+    background-color: #e9ecef;
+}
+
+
+
+/* **** header middel ****** */
+.header_middel{
+    background-color:#600;
+    padding: 20px 0;
+}
+.header_middel .h_middel_text h1{
+     color: #fff;
+     font-size: 55px;
+     font-weight: bold;
+     margin-bottom: 15px;
+     font-family: 'yasinvaierfont';
+}
+.header_middel .h_middel_text h2{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: inherit;
+    margin-bottom: 15px;
+}
+.header_middel .h_middel_text h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'yasinvaierfont';
+}
+/* button */
+.buttons {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: end;
+}
+.buttons .button{
+    padding: 7px 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #600;
+    background: #ffff;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    transition: all .3s;
+
+}
+.buttons .button:hover{
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+.buttons .btn_donate{
+    width: 152px;
+    margin-bottom: 15px;
+}
+ 
+.buttons .btn_english{
+    width: 70px;
+    margin-right: 5px;
+}
+ 
+.buttons .btn_bangla{
+    width: 70px;
+    margin-left: 5px;
+}
+
+/******* navbar ********/
+nav.navbar{
+    background-color: #600;
+    margin: 20px 0;
+    padding: 0;
+}
+.navbar ul.custom_menu{
+    font-family: 'yasinvaierfont';
+}
+.navbar ul.custom_menu li{
+    position: relative;
+}
+.navbar ul.custom_menu li a{
+    text-decoration: none;
+    padding: 20px; 
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    transition: all .3s;
+}
+.navbar ul.custom_menu li:hover >a{ 
+    background-color: #fff;
+    color: #600;
+}
+.navbar ul.custom_menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background-color: #600;
+    width: 170px;
+    left: 0;
+    top: 160%;
+    transition: all .5s; 
+    opacity: 0;
+    visibility: hidden;
+}
+.navbar ul.custom_menu li:hover ul{ 
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
