@@ -201,10 +201,7 @@ nav.navbar{
     visibility: visible;
     opacity: 1; 
 }
-.hidden_text h3{
-
-}
- 
+  
 .hidden_text a{
     text-decoration: none;
     font-size: 20px;
@@ -224,18 +221,340 @@ nav.navbar{
 }
 /*************** course part end ****************/
 
+
+/* about part start  */
+.about{
+    background: url(../images/bg3.jpg);
+}
+.about .video_thumbnail{
+    position: relative;
+}
+.about .video_thumbnail:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.6);
+}
+.about .video_thumbnail img{
+    width: 100%;
+}
+.video_button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+}
+.video_button a{
+    font-size: 60px;
+    color: #fff;
+    transition: all .4s;
+    display: inline-block;
+    outline: 0;
+}
+.video_button a:hover{
+    transform: scale(1.2);
+    animation-fill-mode: backwards;
+    color: #ff0000;
+}
+.about .section_title h1{
+    color: #fff;
+    font-family: 'yasinvaierfont';
+    margin-top: 30px;
+}
+.about_text{
+    padding: 50px;
+}
+.about_text p{
+    color: #fff;
+    font-family: 'yasinvaierfont';
+    font-size: 20px;
+}
+.about_text a{
+    color: #600;
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    background: #fff;
+    border: 1px solid transparent;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition: all .3s;
+    font-family: 'yasinvaierfont';
+    outline: 0;
+}
+.about_text a:hover{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    box-shadow: 0px 0px 10px #600;
+}
+/* about part end */
+
+
+/* dawah part start  */
+.dawah{
+    padding: 60px 0;
+}
+ 
+.dawah .dawah_thumbnail img{
+    width: 100%;
+    box-shadow: 0 0 10px #000;
+}
+ 
+.dawah_text{
+    padding: 50px;
+}
+.dawah_text p{
+    color: #600;
+    font-family: 'yasinvaierfont';
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.dawah_text a{
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    background: #600;
+    border: 1px solid transparent;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition: all .3s;
+    font-family: 'yasinvaierfont';
+    outline: 0;
+}
+.dawah_text a:hover{
+    background: transparent;
+    border: 1px solid #600;
+    color: #600;
+    box-shadow: 0px 0px 10px #600;
+}
+/* dawah part end */
+
+/* prokolpo part start */
+.prokolpo{
+    background: url(../images/bg3.jpg);
+    padding: 80px 0;
+}
+.prokolpo .section_title h1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.prokolpo .single_slider{
+    text-align: center;
+    color: #fff;
+    background-color: #600;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 20px;
+    
+}
+.prokolpo .single_slider h3 {
+	font-family: 'yasinvaierfont';
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+.prokolpo .single_slider p {
+	font-family: 'yasinvaierfont';
+	font-size: 20px;
+}
+.prokolpo .single_slider a {
+	font-family: 'yasinvaierfont';
+	font-size: 18px;
+    text-decoration: none;
+    color: #600;
+    background: #fff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: 5px 20px;
+    display: inline-block;
+    transition: all .3s;
+
+}
+.prokolpo .single_slider a:hover {
+    color: #fff;
+    background: #600;
+    border: 1px solid #fff;
+}
+.prokolpo .angle_set{
+    position: relative;
+}
+.prokolpo .arrows{
+    position: absolute;
+    padding: 10px 20px;
+    background: #600;
+    border-radius: 2px;
+    display: inline-block;
+    bottom: -45px;
+    cursor: pointer;
+}
+.prokolpo .arrows i{
+    font-size: 30px;
+    color: #fff;
+}
+.prokolpo .arrows.left_arrow{
+     
+    left: 0;
+}
+.prokolpo .arrows.right_arrow{
+    
+    right: 0;
+}
+/* prokolpo part end */
+
+/* donation start */
+.donation{
+    padding: 80px 0;
+}
+.donation .donate_img img{
+    width: 100%;
+}
+.donation .donation_text{
+    color: #600;
+    font-family: 'yasinvaierfont';
+}
+.donation .donation_text ul{
+    list-style: none;
+     
+}
+.donation .donation_text ul li{
+    font-size: 20px;
+     
+}
+.donation .donation_text p{
+    font-size: 20px;
+     
+}
+.donation_button{
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    background: #600;
+    border: 1px solid transparent;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition: all .3s;
+    font-family: 'yasinvaierfont';
+    outline: 0;
+}
+.donation_button:hover{
+    background: transparent;
+    border: 1px solid #600;
+    color: #600;
+    box-shadow: 0px 0px 10px #600;
+}
+
+
+/* donation end */
+
+/* contact start */
+.contact{
+    background: url(../images/bg3.jpg);
+    padding: 80px 0;
+}
+.contact .section_title h1{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.contact .contact_left > *{
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: #fff;
+}
+.contact .contact_right > *{
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: #fff;
+}
+.contact_left{
+    margin-bottom: 40px;
+}
+.contact_left label{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'yasinvaierfont';
+}
+.contact .contact_button label{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'yasinvaierfont';
+}
+.contact_button .button input{
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    background-color: #fff;
+    color: #600;
+    border-radius: 4px;
+    margin-top: 30px;
+    transition: all .5s;
+}
+.contact_button .button input:hover{ 
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff; 
+}
+/* contact end */
+
 /********* footer section start ***********/
 
 .footer_top{
     background-color: #600;
     color: #fff;
-    padding: 100px 0;
+    padding: 60px 0;
+}
+.footer_top .address h2{
+    font-family: 'yasinvaierfont';
+    font-size: 45px;
+}
+.footer_top .address h3{
+    font-size: 40px;
+}
+.footer_top .address h4{
+    font-size: 20px;
+    margin: 15px 0;
+}
+ 
+.footer_top .quick_links h3{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.footer_top .quick_links ul{
+    list-style: none;
+    padding: 0;
+}
+.footer_top .quick_links ul li{
+
+}
+.footer_top .quick_links ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 7px 5px;
+    display: block; 
+    transition: all .3s;
+    border-top: 1px solid #fff;
+     
+}
+.footer_top .quick_links ul li a:last-child{
+    border-bottom: 1px solid #fff;
+}
+.footer_top .quick_links ul li a:hover{
+    
+    background-color: rgba(255, 255, 255, .2);
 }
 .footer_top .social_icon ul{
     list-style: none;
     display: flex;
     padding-left: 0;
     margin-left: 0;
+    margin-top: 30px;
 }
 .footer_top .social_icon ul li a{
    height: 40px;
@@ -245,13 +564,7 @@ nav.navbar{
    text-decoration: none;
    display: flex;
    justify-content: center;
-   align-items: center;
-     /* top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
-   /* display: inline-block;
-   text-align: center;
-   line-height: 50px; */
+   align-items: center; 
    margin-right: 25px;
    transform: rotate(46deg);   
    transition: all .3s;
@@ -269,7 +582,24 @@ nav.navbar{
     transform: rotate(-46deg);
 }
 
-
+.footer_top .advisory > *{
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+.footer_top .advisory input[type="submit"]{
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    background-color: #fff;
+    color: #600;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: all .5s;
+}
+.footer_top .advisory input[type="submit"]:hover{
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff; 
+}
 /* copyrigth */
 
 .footer_copyright{

@@ -1,0 +1,64 @@
+@media all and (max-width: 1200px){
+    .sigle_course h2 {
+        font-size: 34px; 
+        line-height: 70px;
+    }
+}
+@media all and (max-width: 992px){
+    .header_middel .h_middel_text h1 { 
+        font-size: 45px; 
+    }
+    .header_middel .h_middel_text h2 {   
+        font-size: 50px; 
+    }
+    .navbar-toggler { 
+        background-color: #fff; 
+        margin-left: auto;
+    }
+    .navbar-toggler:focus { 
+        box-shadow: 0 0 0 4px #ccc;
+    }
+    nav.navbar { 
+        padding: 10px;
+    }
+    .navbar ul.custom_menu ul { 
+        background-color: #a15c5c; 
+        z-index: 99;
+    }
+}
+
+@media all and (max-width: 769px){
+    .header_top { 
+        display: none;
+    }
+    .col-md-3.hidden_col {
+        display: none;
+    }
+    .col-md-3.buttons.text-right {
+        flex-direction: row;
+        align-items: start;
+        justify-content: center;
+    }
+    .buttons .button_top {
+        margin-right: 13px;
+    }
+    .sigle_course { 
+        margin-top: 10px;
+        margin-bottom: 20px; 
+    }
+    .sigle_course:hover { 
+        margin-bottom: 10px;
+    }
+    .footer_top { 
+        text-align: center;
+    }
+    .footer_top .social_icon ul { 
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 576px){
+    .section_title h1 { 
+        font-size: 45px; 
+    }
+}
